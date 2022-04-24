@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/this-is-matt/cse341-node#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "heroku": "^7.60.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
