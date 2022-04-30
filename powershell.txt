@@ -1,0 +1,7 @@
+git commit -a -m "notes here"
+
+git push    --pushes staged changes
+
+git add *  --adds all files that were not being tracked. 
+
+git add <file>   --to add specific file
