@@ -5,8 +5,7 @@ const routes = require('express').Router();
 // });
 
 routes.use('/', require('./home'));
+// not working, not sure why it is exactly like the instructors code
 routes.use('/contacts', require('./contacts'));
-
-// not working
 
 module.exports = routes;
