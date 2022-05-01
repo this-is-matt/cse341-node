@@ -8,9 +8,9 @@ GET http://localhost:3000/626da5400b4d50ab53e3b530
 ###
 //for heroku
 
-GET https://cse341-nodemcp.herokuapp.com/
+GET https://cse341-nodemcp.herokuapp.com/contacts
 
 
 ###
 
-GET https://cse341-nodemcp.herokuapp.com/626da5400b4d50ab53e3b530
+GET https://cse341-nodemcp.herokuapp.com/contacts/626da5400b4d50ab53e3b530
