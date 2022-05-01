@@ -4,3 +4,13 @@ GET http://localhost:3000/
 ###
 
 GET http://localhost:3000/626da5400b4d50ab53e3b530
+
+###
+//for heroku
+
+GET https://cse341-nodemcp.herokuapp.com/
+
+
+###
+
+GET https://cse341-nodemcp.herokuapp.com/626da5400b4d50ab53e3b530
