@@ -1,4 +1,5 @@
 //.env variables MONGODB_URI
+//spent two hours trying to get this to work. it works in local but not in Heroku. It says missing modules. can't find dotenv. looked online for solutions and read Heroku's documentation on the topic as well. couldn't find the answer.will approach again down the road.
 // const dotenv = require('dotenv');
 // dotenv.config();
 
