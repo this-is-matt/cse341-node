@@ -1,5 +1,5 @@
 //.env variables MONGODB_URI
-const dotenv = require('dotenv');
+const dotenv = 'dotenv';
 dotenv.config();
 
 
