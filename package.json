@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "swagger": "node swagger.js"
   },
   "repository": {
     "type": "git",
@@ -20,18 +21,21 @@
   "homepage": "https://github.com/this-is-matt/cse341-node#readme",
   "dependencies": {
     "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "heroku": "^7.60.1",
     "mongodb": "^4.5.0",
     "mongoose": "^6.3.3",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "swagger-ui-express": "^4.3.0"
   },
   "devDependencies": {
     "body-parser": "^1.20.0",
     "dotenv": "^16.0.1",
     "mongodb": "^4.5.0",
     "mongoose": "^6.3.3",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "swagger-autogen": "^2.19.0"
   }
 }
