@@ -5,7 +5,7 @@ const doc = {
     title: 'Contacts',
     description: 'Contacts API',
   },
-  host: 'localhost:3000',
+  host: 'https://cse341-nodemcp.herokuapp.com',
   schemes: ['http'],
 };
 
