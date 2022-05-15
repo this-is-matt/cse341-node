@@ -1,14 +1,33 @@
 GET http://localhost:3000/
 
-
 ###
 GET http://localhost:3000/contacts
 
+###
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+ 
+ {
+    "firstname": "Post",
+    "lastname": "Test",
+    "email": "post@test.com",
+    "favoriteColor": "Post Brown",
+    "birthday": "12/12/28"
+  }
+
 
 ###
-
 GET http://localhost:3000/contacts/626da5400b4d50ab53e3b530
 
+###
+DELETE http://localhost:3000/contacts/62807128333a2e11f07e5399
+
+###
+PATCH  http://localhost:3000/contacts/62807128333a2e11f07e5399
+
+{
+    "firstname": "Poster"
+}
 ###
 //for heroku
 

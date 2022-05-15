@@ -24,6 +24,7 @@ const getCollection = () => {
     return _collection;
 };
 
+
 module.exports = {
     initDatabase,
     getCollection
