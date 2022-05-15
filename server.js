@@ -11,7 +11,7 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger.json');
 
 connect.initDatabase();
-mongoose.connect('mongodb+srv://app:node1234@cluster0.hrjjy.mongodb.net/contacts?retryWrites=true&w=majority');
+mongoose.connect(process.env.MONGODB_URI);
 
 app.use(bodyParser.json())
     .use('/', require('./routes'))
