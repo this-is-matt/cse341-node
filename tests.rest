@@ -37,3 +37,16 @@ GET https://cse341-nodemcp.herokuapp.com/contacts
 ###
 
 GET https://cse341-nodemcp.herokuapp.com/contacts/626da5400b4d50ab53e3b530
+
+###
+POST https://cse341-nodemcp.herokuapp.com/contacts HTTP/1.1
+content-type: application/json
+ 
+ {
+    "firstname": "PostH",
+    "lastname": "Test",
+    "email": "post@test.com",
+    "favoriteColor": "Post Brown",
+    "birthday": "12/12/28"
+  }
+
