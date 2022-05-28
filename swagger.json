@@ -5,10 +5,10 @@
     "description": "Contacts API",
     "version": "1.0.0"
   },
-  "host": "cse341-nodemcp.herokuapp.com",
+  "host": "",
   "basePath": "/",
   "schemes": [
-    "http"
+    ""
   ],
   "paths": {
     "/": {
